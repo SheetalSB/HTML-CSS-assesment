@@ -1,0 +1,105 @@
+<div class="min-h-screen bg-gradient-to-b from-[#ffe3e2] to-[#ffc9de] p-4">
+  <nav class="flex justify-between items-center py-4">
+    <div class="flex space-x-4">
+      <a class="font-bold text-lg" href="#" rel="ugc">
+        Home
+      </a>
+      <a class="text-lg" href="#" rel="ugc">
+        Order
+      </a>
+      <a class="text-lg" href="#" rel="ugc">
+        Food
+      </a>
+      <a class="text-lg" href="#" rel="ugc">
+        Restaurant
+      </a>
+      <a class="text-lg" href="#" rel="ugc">
+        Testimonials
+      </a>
+      <a class="text-lg" href="#" rel="ugc">
+        Contact Us
+      </a>
+    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="text-lg"
+    >
+      <line x1="4" x2="20" y1="12" y2="12"></line>
+      <line x1="4" x2="20" y1="6" y2="6"></line>
+      <line x1="4" x2="20" y1="18" y2="18"></line>
+    </svg>
+  </nav>
+  <main class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <section class="space-y-4">
+      <h1 class="text-5xl font-bold">LOREM IPSUM</h1>
+      <p class="text-lg">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id est vitae dolor rhoncus tristique.
+        Maecenas metus quam, rhoncus euismod lorem in, sollicitudin viverra eros. Donec dictum luctus quam ut
+        tristique. Curabitur nec faucibus purus. Quisque congue sem nec justo mollis, in tincidunt erat pretium. Sed
+        pulvinar, massa ac porta viverra.
+      </p>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 py-2 bg-pink-300 text-white">
+        Click Me
+      </button>
+    </section>
+    <img
+      src="/placeholder.svg"
+      alt="Delicious burger and fries"
+      class="rounded-lg"
+      width="400"
+      height="400"
+      style="aspect-ratio:400/400;object-fit:cover"
+    />
+    <div class="grid grid-cols-2 gap-4">
+      <img
+        src="/placeholder.svg"
+        alt="Neon sign"
+        class="rounded-lg"
+        width="200"
+        height="200"
+        style="aspect-ratio:200/200;object-fit:cover"
+      />
+      <img
+        src="/placeholder.svg"
+        alt="Plates of food"
+        class="rounded-lg"
+        width="200"
+        height="200"
+        style="aspect-ratio:200/200;object-fit:cover"
+      />
+      <img
+        src="/placeholder.svg"
+        alt="Street view"
+        class="rounded-lg"
+        width="200"
+        height="200"
+        style="aspect-ratio:200/200;object-fit:cover"
+      />
+      <img
+        src="/placeholder.svg"
+        alt="Table with dishes"
+        class="rounded-lg"
+        width="200"
+        height="200"
+        style="aspect-ratio:200/200;object-fit:cover"
+      />
+    </div>
+    <section class="bg-pink-400 p-4 rounded-lg flex justify-between items-center">
+      <div>
+        <h2 class="text-2xl font-bold text-white">LOREM IPSUM</h2>
+        <p class="text-white">SET ADEMIR</p>
+      </div>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 py-2 bg-black text-white">
+        Click
+      </button>
+    </section>
+  </main>
+</div>
